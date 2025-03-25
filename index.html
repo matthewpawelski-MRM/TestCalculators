@@ -8,7 +8,27 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
     <body>
-        <form id="significanceForm" class="newCalcInput">
+        <form id="significanceForm" class="newCalcForm">
+            <div class="calcInput">
+                <Label for="testVisits">Test Visits</Label>
+                <input type="number" id="testVisits" name="testVisits" required />
+            </div>
+            <div class="calcInput">
+                <Label for="testConversions">Test Conversions</Label>
+                <input type="number" id="testConversions" name="testConversions" required />
+            </div>
+            <div class="calcInput">
+                <Label for="controlVisits">Control Visits</Label>
+                <input type="number" id="controlVisits" name="controlVisits" required />
+            </div>
+            <div class="calcInput">
+                <Label for="controlConversions">Control Conversions</Label>
+                <input type="number" id="controlConversions" name="controlConversions" required />
+            </div>
+            <div class="calcInput">
+                <Label for="confidence">Confidence</Label>
+                <input type="number" id="confidence" name="confidence" required />
+            </div>
             <button type="submit" id="runCalcButton">
                 <svg xmlns="http://www.w3.org/2000/svg" 
                     width="24" height="24" 
